@@ -1,5 +1,61 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# SQLite database
 *.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# dotenv files
 .env
+.env.*
+
+# Test outputs
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pydantic cache (v2+)
+__pydantic__/  
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
